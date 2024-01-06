@@ -15,11 +15,17 @@
             "homepage": "https://symfony.com/contributors"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/holdmann/options-resolver"
+        }
+    ],
     "require": {
         "php": ">=5.3.9",
         "symfony/event-dispatcher": "~2.1|~3.0.0",
         "symfony/intl": "~2.7.25|^2.8.18|~3.2.5",
-        "symfony/options-resolver": "~2.6",
+        "symfony/options-resolver": "dev-v2.8.52-php80",
         "symfony/polyfill-ctype": "~1.8",
         "symfony/polyfill-mbstring": "~1.0",
         "symfony/property-access": "~2.3|~3.0.0"
